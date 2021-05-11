@@ -19,8 +19,8 @@ jobs:
       - name: .NET Restore
         run: dotnet restore
         
-      - name: .NET Build
-        run: dotnet build --configuration Release --no-restore
+      #- name: .NET Build
+      #  run: dotnet build --configuration Release --no-restore
           
       - name: Publish .NET Core Project
         run: dotnet publish GitHubPages.Web/GitHubPages.Web.csproj -c Release -o release --nologo
