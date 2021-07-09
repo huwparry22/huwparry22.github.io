@@ -27,15 +27,6 @@ namespace GitHubPages.OfficialJokeApi.UnitTests.Mappers
             {
                 var actual = _objectToTest.ToJokeResult(jokeResponses);
 
-                //if (expected is null)
-                //{
-                //    Assert.Null(actual);
-                //}
-                //else
-                //{
-                //    //actual.Should().BeEquivalentTo(expected, )
-                //}
-
                 actual.Should().BeEquivalentTo(expected);
             }
         }
@@ -50,7 +41,6 @@ namespace GitHubPages.OfficialJokeApi.UnitTests.Mappers
             {
                 var actual = _objectToTest.ToJokeResult(jokeResponse);
 
-                //AssertExpectedActualMappings(expected, actual);
                 actual.Should().BeEquivalentTo(expected);
             }
         }
