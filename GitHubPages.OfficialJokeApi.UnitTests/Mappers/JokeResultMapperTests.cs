@@ -3,11 +3,7 @@ using GitHubPages.Objects.Results;
 using GitHubPages.OfficialJokeApi.Mappers;
 using GitHubPages.OfficialJokeApi.Responses;
 using GitHubPages.OfficialJokeApi.UnitTests.Mappers.TestData;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace GitHubPages.OfficialJokeApi.UnitTests.Mappers

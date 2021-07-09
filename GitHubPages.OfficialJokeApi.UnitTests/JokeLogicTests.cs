@@ -4,7 +4,6 @@ using GitHubPages.Objects.Results;
 using GitHubPages.OfficialJokeApi.Interfaces;
 using GitHubPages.OfficialJokeApi.Responses;
 using Moq;
-using System;
 using System.Threading.Tasks;
 using Xunit;
 
