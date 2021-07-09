@@ -5,19 +5,21 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHubPages.Web", "GitHubPages.Web\GitHubPages.Web.csproj", "{0666DE2E-D400-484C-8A81-4BA697F02B91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubPages.Services", "GitHubPages.Services\GitHubPages.Services.csproj", "{987177F7-3E34-4EA8-8B75-F91F1EE5E3C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHubPages.Services", "GitHubPages.Services\GitHubPages.Services.csproj", "{987177F7-3E34-4EA8-8B75-F91F1EE5E3C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubPages.Common", "GitHubPages.Common\GitHubPages.Common.csproj", "{6E422F84-451D-4DA1-8237-72A569C8391F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHubPages.Common", "GitHubPages.Common\GitHubPages.Common.csproj", "{6E422F84-451D-4DA1-8237-72A569C8391F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubPages.Common.UnitTests", "GitHubPages.Common.UnitTests\GitHubPages.Common.UnitTests.csproj", "{F08122B0-EBC1-434B-B75C-597154723F93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHubPages.Common.UnitTests", "GitHubPages.Common.UnitTests\GitHubPages.Common.UnitTests.csproj", "{F08122B0-EBC1-434B-B75C-597154723F93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubPages.Objects", "GitHubPages.Objects\GitHubPages.Objects.csproj", "{F90B24D6-99DA-4D73-B5C7-5A81165A753D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHubPages.Objects", "GitHubPages.Objects\GitHubPages.Objects.csproj", "{F90B24D6-99DA-4D73-B5C7-5A81165A753D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubPages.OfficialJokeApi", "GitHubPages.Jokes\GitHubPages.OfficialJokeApi.csproj", "{529C16F6-E543-40D9-A479-3FE10D575BB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHubPages.OfficialJokeApi", "GitHubPages.Jokes\GitHubPages.OfficialJokeApi.csproj", "{529C16F6-E543-40D9-A479-3FE10D575BB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubPages.DependencyResolution", "GitHubPages.DependencyResolution\GitHubPages.DependencyResolution.csproj", "{98AE8EAE-BB0F-4D03-9FA2-61E3CB3EB621}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHubPages.DependencyResolution", "GitHubPages.DependencyResolution\GitHubPages.DependencyResolution.csproj", "{98AE8EAE-BB0F-4D03-9FA2-61E3CB3EB621}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubPages.Services.Factory", "GitHubPages.Services.Interfaces\GitHubPages.Services.Factory.csproj", "{36B1FFC0-0A66-4D26-BF15-65F0ED00BD72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHubPages.Services.Factory", "GitHubPages.Services.Interfaces\GitHubPages.Services.Factory.csproj", "{36B1FFC0-0A66-4D26-BF15-65F0ED00BD72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubPages.Services.UnitTests", "GitHubPages.Services.UnitTests\GitHubPages.Services.UnitTests.csproj", "{BF95B774-1A53-458A-8238-26E2B125E5A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{36B1FFC0-0A66-4D26-BF15-65F0ED00BD72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36B1FFC0-0A66-4D26-BF15-65F0ED00BD72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36B1FFC0-0A66-4D26-BF15-65F0ED00BD72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF95B774-1A53-458A-8238-26E2B125E5A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF95B774-1A53-458A-8238-26E2B125E5A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF95B774-1A53-458A-8238-26E2B125E5A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF95B774-1A53-458A-8238-26E2B125E5A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
