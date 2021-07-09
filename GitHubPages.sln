@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubPages.Web", "GitHubPages.Web\GitHubPages.Web.csproj", "{0666DE2E-D400-484C-8A81-4BA697F02B91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHubPages.Web", "GitHubPages.Web\GitHubPages.Web.csproj", "{0666DE2E-D400-484C-8A81-4BA697F02B91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubPages.Services", "GitHubPages.Services\GitHubPages.Services.csproj", "{987177F7-3E34-4EA8-8B75-F91F1EE5E3C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubPages.Common", "GitHubPages.Common\GitHubPages.Common.csproj", "{6E422F84-451D-4DA1-8237-72A569C8391F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubPages.Common.UnitTests", "GitHubPages.Common.UnitTests\GitHubPages.Common.UnitTests.csproj", "{F08122B0-EBC1-434B-B75C-597154723F93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubPages.Objects", "GitHubPages.Objects\GitHubPages.Objects.csproj", "{F90B24D6-99DA-4D73-B5C7-5A81165A753D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubPages.OfficialJokeApi", "GitHubPages.Jokes\GitHubPages.OfficialJokeApi.csproj", "{529C16F6-E543-40D9-A479-3FE10D575BB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{0666DE2E-D400-484C-8A81-4BA697F02B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0666DE2E-D400-484C-8A81-4BA697F02B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0666DE2E-D400-484C-8A81-4BA697F02B91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{987177F7-3E34-4EA8-8B75-F91F1EE5E3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987177F7-3E34-4EA8-8B75-F91F1EE5E3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987177F7-3E34-4EA8-8B75-F91F1EE5E3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987177F7-3E34-4EA8-8B75-F91F1EE5E3C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E422F84-451D-4DA1-8237-72A569C8391F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E422F84-451D-4DA1-8237-72A569C8391F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E422F84-451D-4DA1-8237-72A569C8391F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E422F84-451D-4DA1-8237-72A569C8391F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F08122B0-EBC1-434B-B75C-597154723F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F08122B0-EBC1-434B-B75C-597154723F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F08122B0-EBC1-434B-B75C-597154723F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F08122B0-EBC1-434B-B75C-597154723F93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F90B24D6-99DA-4D73-B5C7-5A81165A753D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F90B24D6-99DA-4D73-B5C7-5A81165A753D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F90B24D6-99DA-4D73-B5C7-5A81165A753D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F90B24D6-99DA-4D73-B5C7-5A81165A753D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{529C16F6-E543-40D9-A479-3FE10D575BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529C16F6-E543-40D9-A479-3FE10D575BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529C16F6-E543-40D9-A479-3FE10D575BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529C16F6-E543-40D9-A479-3FE10D575BB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

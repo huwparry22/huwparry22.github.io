@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Requests\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GitHubPages.Common\GitHubPages.Common.csproj" />
+    <ProjectReference Include="..\GitHubPages.Objects\GitHubPages.Objects.csproj" />
+    <ProjectReference Include="..\GitHubPages.Services\GitHubPages.Services.csproj" />
+  </ItemGroup>
+
+</Project>
