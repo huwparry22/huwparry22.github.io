@@ -2,7 +2,7 @@
 using GitHubPages.Objects.Results;
 using GitHubPages.OfficialJokeApi.Interfaces;
 using GitHubPages.OfficialJokeApi.Responses;
-using GitHubPages.Services.Interfaces;
+using GitHubPages.Services.Factory;
 using System.Threading.Tasks;
 
 namespace GitHubPages.OfficialJokeApi

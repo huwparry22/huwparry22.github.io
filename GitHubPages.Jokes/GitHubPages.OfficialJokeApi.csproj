@@ -9,9 +9,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\GitHubPages.Common\GitHubPages.Common.csproj" />
     <ProjectReference Include="..\GitHubPages.Objects\GitHubPages.Objects.csproj" />
-    <ProjectReference Include="..\GitHubPages.Services\GitHubPages.Services.csproj" />
+    <ProjectReference Include="..\GitHubPages.Services.Interfaces\GitHubPages.Services.Factory.csproj" />
   </ItemGroup>
 
 </Project>

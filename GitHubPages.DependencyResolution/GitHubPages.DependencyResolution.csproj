@@ -9,9 +9,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GitHubPages.Common\GitHubPages.Common.csproj" />
     <ProjectReference Include="..\GitHubPages.Jokes\GitHubPages.OfficialJokeApi.csproj" />
-    <ProjectReference Include="..\GitHubPages.Objects\GitHubPages.Objects.csproj" />
-    <ProjectReference Include="..\GitHubPages.Services.Interfaces\GitHubPages.Services.Factory.csproj" />
+    <ProjectReference Include="..\GitHubPages.Services\GitHubPages.Services.csproj" />
   </ItemGroup>
 
 </Project>

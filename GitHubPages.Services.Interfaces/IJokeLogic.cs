@@ -1,7 +1,7 @@
 ﻿using GitHubPages.Objects.Results;
 using System.Threading.Tasks;
 
-namespace GitHubPages.Services.Interfaces
+namespace GitHubPages.Services.Factory
 {
     public interface IJokeLogic
     {
