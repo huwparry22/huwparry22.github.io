@@ -1,6 +1,5 @@
-﻿using GitHubPages.Common.Interfaces;
-using RestSharp;
-using System;
+﻿using Flurl.Http;
+using GitHubPages.Common.Interfaces;
 using System.Threading.Tasks;
 
 namespace GitHubPages.Common
@@ -9,13 +8,7 @@ namespace GitHubPages.Common
     {
         public async Task<T> GetAsync<T>(string url)
         {
-            var client = new RestClient();
-
-            var request = new RestRequest(url, Method.GET, DataFormat.Json);
-
-            var response = await client.ExecuteAsync<T>(request).ConfigureAwait(false);
-
-            return response.Data;
+            return await url.GetJsonAsync<T>().ConfigureAwait(false);
         }
     }
 }

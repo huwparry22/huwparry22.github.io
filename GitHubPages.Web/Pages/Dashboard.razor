@@ -1,0 +1,23 @@
+﻿@page "/dashboard"
+@inject IJokeService _jokeService
+
+<h1>Dashboard</h1>
+
+<p>@_setup</p>
+
+<p><strong>@_punchline</strong></p>
+
+@code {
+    private string _setup;
+    private string _punchline;
+
+    protected override async Task OnInitializedAsync()
+    {
+        //return base.OnInitializedAsync();
+
+        var result = await _jokeService.GetRandomJokeAsync().ConfigureAwait(false);
+
+        _setup = result.Setup;
+        _punchline = result.Punchline;
+    }
+}

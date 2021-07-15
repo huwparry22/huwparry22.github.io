@@ -10,6 +10,11 @@
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GitHubPages.DependencyResolution\GitHubPages.DependencyResolution.csproj" />
+    <ProjectReference Include="..\GitHubPages.Services\GitHubPages.Services.csproj" />
+  </ItemGroup>
+
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
     <Exec Command="webcompiler -r .\Shared\ -c webcompiler.json" />
   </Target>

@@ -19,9 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHubPages.DependencyResol
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHubPages.Services.Factory", "GitHubPages.Services.Interfaces\GitHubPages.Services.Factory.csproj", "{36B1FFC0-0A66-4D26-BF15-65F0ED00BD72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubPages.Services.UnitTests", "GitHubPages.Services.UnitTests\GitHubPages.Services.UnitTests.csproj", "{BF95B774-1A53-458A-8238-26E2B125E5A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHubPages.Services.UnitTests", "GitHubPages.Services.UnitTests\GitHubPages.Services.UnitTests.csproj", "{BF95B774-1A53-458A-8238-26E2B125E5A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubPages.OfficialJokeApi.UnitTests", "GitHubPages.OfficialJokeApi.UnitTests\GitHubPages.OfficialJokeApi.UnitTests.csproj", "{ABE1E8A1-8D20-443D-B57D-E0AC3994A7FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHubPages.OfficialJokeApi.UnitTests", "GitHubPages.OfficialJokeApi.UnitTests\GitHubPages.OfficialJokeApi.UnitTests.csproj", "{ABE1E8A1-8D20-443D-B57D-E0AC3994A7FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
