@@ -3,21 +3,56 @@
 
 <h1>Dashboard</h1>
 
-<p>@_setup</p>
 
-<p><strong>@_punchline</strong></p>
+
+<div class="container">
+    <div class="row row-cols-3">
+        <div class="col-4 border p-2">
+            <div class="card">
+                <div class="card-body">
+                    <p>@_setup</p>
+
+                    <p><strong>@_punchline</strong></p>
+
+                    <button class="pt-1" hidden="@_hideRefresh" @onclick="GetJoke">
+                        <span class="oi oi-reload"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 border p-2">
+
+        </div>
+        <div class="col-4 border p-2">
+
+        </div>
+    </div>
+</div>
+
+
+
 
 @code {
     private string _setup;
     private string _punchline;
+    private bool _hideRefresh = true;
 
     protected override async Task OnInitializedAsync()
     {
-        //return base.OnInitializedAsync();
+        await GetJoke().ConfigureAwait(false);
+    }
+
+    private async Task GetJoke()
+    {
+        _hideRefresh = true;
+        _setup = string.Empty;
+        _punchline = string.Empty;
 
         var result = await _jokeService.GetRandomJokeAsync().ConfigureAwait(false);
 
         _setup = result.Setup;
         _punchline = result.Punchline;
+
+        _hideRefresh = false;
     }
 }
