@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHubPages.Services.UnitTe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHubPages.OfficialJokeApi.UnitTests", "GitHubPages.OfficialJokeApi.UnitTests\GitHubPages.OfficialJokeApi.UnitTests.csproj", "{ABE1E8A1-8D20-443D-B57D-E0AC3994A7FF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jokes", "Jokes", "{FB28CF06-5572-409A-8AC9-6CD9E107EFD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +74,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{529C16F6-E543-40D9-A479-3FE10D575BB4} = {FB28CF06-5572-409A-8AC9-6CD9E107EFD5}
+		{ABE1E8A1-8D20-443D-B57D-E0AC3994A7FF} = {FB28CF06-5572-409A-8AC9-6CD9E107EFD5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {00C044B8-14E0-40B8-8D37-C202A93923FF}
