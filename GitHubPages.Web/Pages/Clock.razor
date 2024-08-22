@@ -1,0 +1,40 @@
+﻿@page "/clock"
+@using System.Threading
+
+<h3>Clock</h3>
+
+<div id="digital-clock">
+    <div id="hours">
+        <p>@_hours</p>
+    </div>
+    <div id="minutes">
+        <p>@_minutes</p>
+    </div>
+    <div id="seconds">
+        <p>@_seconds</p>
+    </div>
+</div>
+
+@code {
+    private string _hours;
+    private string _minutes;
+    private string _seconds;
+
+    private Timer _timer;
+
+    protected override void OnInitialized()
+    {
+        _timer = new Timer(Ticked, null, 0, 1000);
+    }
+
+    private void Ticked(Object _)
+    {
+        var currentDateTime = DateTime.Now;
+
+        _hours = currentDateTime.Hour.ToString("D2");
+        _minutes = currentDateTime.Minute.ToString("D2");
+        _seconds = currentDateTime.Second.ToString("D2");
+
+        InvokeAsync(StateHasChanged);
+    }
+}
