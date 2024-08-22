@@ -7,7 +7,7 @@ on:
     
 jobs:
   deploy-to-github-pages:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v2
       
@@ -26,7 +26,7 @@ jobs:
         run: dotnet publish GitHubPages.Web/GitHubPages.Web.csproj -c Release -o release --nologo
         
       - name: Add .nojekyll file
-        run: echo null > release/wwwroot/.nojekyll
+        run: touch release/wwwroot/.nojekyll
         
       - name: Commit wwwroot to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1

@@ -3,17 +3,10 @@
     <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Content Remove="compilerconfig.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="compilerconfig.json" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\GitHubPages.DependencyResolution\GitHubPages.DependencyResolution.csproj" />
     <ProjectReference Include="..\GitHubPages.Services\GitHubPages.Services.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="BuildWebCompiler2022" Version="1.14.10" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.8" />
     <PackageReference Include="System.Net.Http.Json" Version="8.0.0" />
